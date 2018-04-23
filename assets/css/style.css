@@ -1,0 +1,54 @@
+body {
+    background: url('../images/cloudy-day.png');
+}
+
+img {
+    max-height: 150px;
+}
+
+form,
+.showBtn {
+    background-color: #1E90FF;
+    color: white;
+}
+
+form {
+    padding: 10px;
+}
+
+#newShowInput {
+    color: black;
+}
+
+.ratingStyle {
+    color: white;
+    background-color: #1E90FF;
+}
+
+#addShow {
+    background-color: white;
+    color: #1E90FF;
+    border: none;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#TVButtons {
+    margin: 10px;
+}
+
+.showBtn {
+    padding: 6px;
+    margin: 3px;
+}
+
+#giphyLogo {
+    margin: 20px;
+}
