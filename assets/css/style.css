@@ -54,3 +54,9 @@ button {
 #giphyLogo {
     margin: 20px;
 }
+
+.container {
+    background-color: #00BFFF;
+    padding: 20px;
+    margin-top: 20px;
+}
