@@ -7,16 +7,17 @@ img {
 }
 
 form,
-.showBtn {
+.movieBtn {
     background-color: #1E90FF;
     color: white;
 }
 
 form {
     padding: 10px;
+    font-family: 'Gugi', cursive;
 }
 
-#newShowInput {
+#newMovieInput {
     color: black;
 }
 
@@ -25,7 +26,7 @@ form {
     background-color: #1E90FF;
 }
 
-#addShow {
+#addMovie {
     background-color: white;
     color: #1E90FF;
     border: none;
@@ -40,11 +41,12 @@ button {
     border: none;
 }
 
-#TVButtons {
+#MovieButtons {
     margin: 10px;
+    font-family: 'Gugi', cursive;
 }
 
-.showBtn {
+.movieBtn {
     padding: 6px;
     margin: 3px;
 }

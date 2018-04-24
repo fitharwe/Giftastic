@@ -3,14 +3,14 @@ var currentGif; var pausedGif; var animatedGif; var stillGif;
 
 // function to make the buttons
 function createButtons(){
-	$('#TVButtons').empty();
+	$('#MovieButtons').empty();
 	for(var i = 0; i < movieTitle.length; i++){
-		var showBtn = $('<button>').text(movieTitle[i]).addClass('showBtn').attr({'data-name': movieTitle[i]});
-		$('#TVButtons').append(showBtn);
+		var movieBtn = $('<button>').text(movieTitle[i]).addClass('movieBtn').attr({'data-name': movieTitle[i]});
+		$('#MovieButtons').append(movieBtn);
 	}
 
 	//displays gifs on click
-	$('.showBtn').on('click', function(){
+	$('.movieBtn').on('click', function(){
 		$('.display').empty();
 
 		var thisShow = $(this).data('name');
@@ -44,8 +44,8 @@ $(document).on('click','.playOnClick', function(){
 
 
 //sets a button from input
-$('#addShow').on('click', function(){
-	var newShow = $('#newShowInput').val().trim();
+$('#addMovie').on('click', function(){
+	var newShow = $('#newMovieInput').val().trim();
 	movieTitle.push(newShow);
 	createButtons();
 	return false;
